@@ -19,6 +19,7 @@ package-lock.json
 # OS generated files
 ehthumbs.db
 Desktop.ini
+desktop.ini
 
 # Dependency directories
 jspm_packages/
