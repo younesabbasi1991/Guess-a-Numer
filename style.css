@@ -1,0 +1,96 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-fluid {
+  background-color: rgb(44, 44, 44);
+  height: 100vh;
+}
+.container-fluid.won {
+  background-color: green;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  height: 60px;
+  padding: 10px;
+}
+
+#reset-btn {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.game-header p:last-child {
+  color: white;
+}
+.geme-body {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+#right-number-input {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 60px;
+}
+.geme-detail {
+  display: flex;
+  justify-content: center;
+}
+.geme-detail div {
+  width: 50%;
+}
+
+#guess-num-input {
+  width: 100px;
+  border: 2px solid white;
+  background-color: none;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#check-btn {
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.geme-detail div:last-child p {
+  color: white;
+}
+#message,
+#score,
+#high-score {
+  color: white;
+  font-size: 25px;
+}
+#message {
+  margin-bottom: 25px;
+}
